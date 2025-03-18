@@ -1,0 +1,30 @@
+name: roam_radar
+description: A social app for travelers, van lifers, and campers to connect.
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_core: latest_version
+  firebase_auth: latest_version
+  cloud_firestore: latest_version
+  provider: latest_version
+  geolocator: latest_version
+  flutter_local_notifications: latest_version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: latest_version
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
